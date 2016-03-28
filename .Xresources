@@ -1,0 +1,40 @@
+URxvt.scrollBar: off
+URxvt.font:xft:Bitstream Vera Sans Mono:style=Roman:pixelsize=12:antialias=true
+URxvt.boldFont:xft:Bitstream Vera Sans Mono:style=Bold:pixelsize=12:antialias=true
+URxvt.letterSpace:-1
+
+URxvt.lineSpace:1
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:      rgb 
+Xft.hinting: true
+Xft.hintstyle:  hintfull  
+
+*color0:                #212121
+*color8:                        #616161
+*color9:                #FF1744
+*color1:                        #D50000
+*color10:               #00E676
+*color2:                        #00C853
+*color12:               #00E5FF
+*color4:                        #00B8D4
+*color11:               #EEFF41
+*color3:                        #C6FF00
+*color14:               #64FFDA
+*color6:                        #1DE9B6
+*color13:               #D500F9
+*color5:                        #AA00FF
+*color7:                #BDBDBD
+*color15:                       #EEEEEE
+				
+URxvt.keysym.C-BackSpace:       \033[33~
+
+!-*- Perl extensions -*-
+URxvt.perl-ext-common: keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.depth: 32
+URxvt.background: rgba:0000/0000/0000/bbbb
+*foreground:		#EFEFEC
+*cursorColor:			#EFEFEC
+
