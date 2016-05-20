@@ -1,5 +1,6 @@
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+
+
+HISTFILE=/home/blake/.hist
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd beep extendedglob nomatch notify correctall
@@ -33,6 +34,7 @@ antigen apply
 x=$HOSTNAME
 #x=$
 echo "   "
+export PATH=$PATH:$HOME/.rvm/bin
 export PS1="
        " 
 export PATH=$PATH:/usr/local/bin
@@ -59,3 +61,12 @@ fi
 
 
 # Put your fun stuff here.
+
+
+echo -e '\033[?17;0;127c'
+[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+[[ -s /home/blake/.rvm/scripts/rvm ]] && source /home/blake/.rvm/scripts/rvm
+
+cd ~/Desktop
+
+
